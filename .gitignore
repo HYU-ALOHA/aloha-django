@@ -133,3 +133,6 @@ dmypy.json
 
 # static
 static/
+
+# data
+xlsx/
