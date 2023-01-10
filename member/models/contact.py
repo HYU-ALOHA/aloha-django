@@ -19,5 +19,8 @@ class Contact(TimeStampedModel):
     grade = models.IntegerField(null=True, verbose_name='학년')
     join_year = models.IntegerField(null=True, verbose_name='기수')
     study_class = models.IntegerField(null=True, verbose_name='반')
+    
+    role = models.CharField(max_length=20, null=True)
+    status = models.CharField(max_length=20, null=True)
 
     boj_handle = models.CharField(max_length=20, null=True)
